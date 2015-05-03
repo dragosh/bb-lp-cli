@@ -1,6 +1,6 @@
 # Backbase Launchpad-CLI tools
 
-# This package is deprecated use due to bin conflicts
+# This package is deprecated 
 
 For backbase global cli
 

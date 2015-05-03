@@ -1,9 +1,9 @@
 {
   "name": "backbase",
   "preferGlobal": true,
-  "version": "0.2.6",
+  "version": "0.2.7",
   "bin": {
-    "bb": "bin/backbase"
+
   },
   "description": "A tool for creating and developing Backbase Launchpad specific Widgets and Modules.",
   "homepage": "http://github.com/dragosh/bb-lp-tools",
