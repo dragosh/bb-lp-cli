@@ -47,7 +47,7 @@ arguments:
 
 options:
 
-- **NONE** skips unit tests
+- **NONE**
 
 ```bash
 bblp build
