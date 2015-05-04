@@ -5,7 +5,7 @@ Backbase Launchpad tools for widgets / modules
 # Information
 | name                  | version       | node      |
 | ----------------------|:-------------:| ----------:|
-| backbase              | 0.2.6         | >= 0.10    |
+| backbase              | 0.0.1         | >= 0.10    |
 
 
 ## Requirements
@@ -17,23 +17,23 @@ Backbase Launchpad tools for widgets / modules
 ## Install
 
 ```
-npm i backbase -g 
+npm i bb-lp-cli -g 
 ```
 
 ## Usage
 
-Using **bb** as binary.
+Using **bblp** as binary.
 
 
 ### Generate widget/module:
 
 arguments:
-    - url 'https://stash.backbase.com/scm/lp/widget-ng-template.git'
+    - url 'repo url'
 options:
 - **NONE**
 
 ```bash
-bb generate <url>
+bblp generate <url>
 ```
 
 ### Install bower dependencies:
@@ -46,7 +46,7 @@ options:
 - **NONE**
 
 ```bash
-bb install
+bblp install
 ```
 
 
@@ -62,7 +62,7 @@ options:
     
 
 ```bash
-bb start
+bblp start
 ```
 
 ### Test: 
@@ -74,7 +74,7 @@ options:
 - **w --watch** watch test files and source files
 
 ```bash
-bb test
+bblp test
 ```
 
 
@@ -89,7 +89,7 @@ options:
 - **- s --skipTests** skips unit tests
 
 ```bash
-bb build
+bblp build
 ```
 
 
@@ -103,7 +103,7 @@ options:
 - **NONE**
 
 ```bash
-bb register
+bblp register
 ```
 
 ### Unregister: Unregister bower package to registry endpoint
@@ -116,7 +116,7 @@ options:
 - **NONE**
 
 ```bash
-bb unregister
+bblp unregister
 ```
 
 ### Configuration under the bower.json file
@@ -148,9 +148,9 @@ This is the default config structure if is not specified otherwise in **bower.js
 
 
 Commands
-- bb docs (generate documentation)
-- bb bump (bump the verion)
-- bb package (generate a zip package from dist folder)
+- bblp docs (generate documentation)
+- bblp bump (bump the verion)
+- bblp package (generate a zip package from dist folder)
 
 Output
 - better output

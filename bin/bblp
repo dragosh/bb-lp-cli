@@ -9,7 +9,7 @@ var pckJson = require('../package.json');
 var BBCLI = cliparse.cli({
     name: pckJson.name,
     version: pckJson.version,
-    description: 'Backbase CLI tool',
+    description: 'Backbase Launchpad CLI tool',
 
     commands: [
 
