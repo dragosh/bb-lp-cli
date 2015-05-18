@@ -8,12 +8,6 @@ Backbase Launchpad building for widgets / modules
 | bb-lp-cli             | 0.0.3         | >= 0.10   |
 
 
-## Requirements
-- git
-- nodejs
-- bower
-- curl
-
 ## Install
 
 ```
